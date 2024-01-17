@@ -1,0 +1,26 @@
+[
+  {
+    "title": "GitHub API",
+    "imageSrc": "projects/githubApi.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["JavaScript", "CSS", "HTML", "API"],
+    "demo": "https://dos-santos-filipe.github.io/GitHub-API-JSQuest/",
+    "source": "https://github.com/Dos-Santos-Filipe/GitHub-API-JSQuest"
+  },
+  {
+    "title": "Project B",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React", "Express", "Node", "Sass"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Project C",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
+]

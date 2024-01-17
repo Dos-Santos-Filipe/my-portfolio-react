@@ -1,0 +1,18 @@
+[
+  {
+    "role": "Análise e Desenvolvimento de Sistemas",
+    "organisation": "Estácio de Sá",
+    "startDate": "2023",
+    "endDate": "Momento",
+    "experiences": [],
+    "imageSrc": "history/estacio.png"
+  },
+  {
+    "role": "Treinamento Web FullStack",
+    "organisation": "DevQuest",
+    "startDate": "2023",
+    "endDate": "Momento",
+    "experiences": ["Frontend", "Backend"],
+    "imageSrc": "history/devquest.png"
+  }
+]
