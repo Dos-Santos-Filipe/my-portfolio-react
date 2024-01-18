@@ -8,19 +8,19 @@
     "source": "https://github.com/Dos-Santos-Filipe/GitHub-API-JSQuest"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
+    "title": "Financial App",
+    "imageSrc": "projects/financial-app.png",
     "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "skills": ["React", "Styled components"],
+    "demo": "https://dos-santos-filipe.github.io/React-financial-App/",
+    "source": "https://github.com/Dos-Santos-Filipe/React-financial-App"
   },
   {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
+    "title": "Portfólio",
+    "imageSrc": "projects/portfolio-react.png",
     "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "skills": ["React", "JavaScript", "CSS", "HTML"],
+    "demo": "https://dos-santos-filipe.github.io/my-portfolio-react/",
+    "source": "https://github.com/Dos-Santos-Filipe/my-portfolio-react"
   }
 ]

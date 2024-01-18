@@ -15,6 +15,12 @@
   width: 298px;
   height: 200px;
   border-radius: 20px;
+  transition: 0.3s ease-in-out;
+}
+
+.container:hover img {
+  scale: 1.09;
+  border: 3px solid var(--color-primary);
 }
 
 .title {
