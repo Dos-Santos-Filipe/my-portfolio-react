@@ -8,6 +8,11 @@
   box-shadow: 0 16px 14px 0 #04152d;
   padding: 18px 24px;
   max-width: 345px;
+  transition: 0.2s ease-in-out;
+}
+
+.container:hover {
+  scale: 1.02;
 }
 
 .img {
@@ -15,13 +20,18 @@
   width: 298px;
   height: 200px;
   border-radius: 20px;
-  transition: 0.3s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 
 .container:hover img {
   scale: 1.09;
-  border: 3px solid var(--color-primary);
+  /* border: 3px solid var(--color-primary); */
+  box-shadow: 0px 0px 10px 1px var(--color-dark);
 }
+
+/* img:hover {
+  box-shadow: 0px 0px 10px 1px var(--color-dark);
+} */
 
 .title {
   font-size: 25px;
