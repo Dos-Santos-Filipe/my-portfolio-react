@@ -2,7 +2,7 @@
   {
     "title": "GitHub API",
     "imageSrc": "projects/githubApi.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "description": "Site de busca que usa a API do GitHub para acessar e exibir informações públicas dos usuários.",
     "skills": ["JavaScript", "CSS", "HTML", "API"],
     "demo": "https://dos-santos-filipe.github.io/GitHub-API-JSQuest/",
     "source": "https://github.com/Dos-Santos-Filipe/GitHub-API-JSQuest"
@@ -10,7 +10,7 @@
   {
     "title": "Financial App",
     "imageSrc": "projects/financial-app.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "description": " Projeto de uma aplicação em React para facilitar o controle financeiro.",
     "skills": ["React", "Styled components"],
     "demo": "https://dos-santos-filipe.github.io/React-financial-App/",
     "source": "https://github.com/Dos-Santos-Filipe/React-financial-App"
@@ -18,7 +18,7 @@
   {
     "title": "Portfólio",
     "imageSrc": "projects/portfolio-react.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "description": "Este portfólio é um cartão de visitas virtual que consolida e destaca minha experiência e habilidades.",
     "skills": ["React", "JavaScript", "CSS", "HTML"],
     "demo": "https://dos-santos-filipe.github.io/my-portfolio-react/",
     "source": "https://github.com/Dos-Santos-Filipe/my-portfolio-react"
