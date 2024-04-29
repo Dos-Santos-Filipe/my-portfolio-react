@@ -7,9 +7,10 @@ export const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Olá, me chamo Filipe</h1>
+        <h1 className={styles.title}>Olá, me chamo Filipe!</h1>
         <p className={styles.description}>
-        Sou um desenvolvedor Web Frontend. Curso Análise e desenvolvimento de sistemas e estou estudando para ser um desenvolvedor Full-Stack. 
+        <h3 className={styles.subtitle}>Desenvolvedor de Software e Psicólogo.</h3>
+        Curso Análise e desenvolvimento de sistemas e estou engajado na trilha para ser um desenvolvedor Full-Stack, crescendo e evoluindo a cada passo. 
         </p>
         <a
           href="mailto:filipesantos.psic@gmail.com"
