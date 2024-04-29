@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 import styles from "./navbar.module.css";
-import { getImageUrl } from "../../utils";
+import { getImageUrl, scrollToElement } from "../../utils";
 
 export const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -40,13 +40,13 @@ export const Navbar = () => {
           onClick={() => setMenuOpen(false)}
         >
           <li>
-            <a href="#about">Sobre</a>
+            <a href="javascript:void(0);" onClick={() => scrollToElement("about")}>Sobre</a>
           </li>
           <li>
-            <a href="#experience">Experiência</a>
+            <a href="javascript:void(0);" onClick={() => scrollToElement("experience")}>Experiência</a>
           </li>
           <li>
-            <a href="#projects">Projetos</a>
+            <a href="javascript:void(0);" onClick={() => scrollToElement("projects")}>Projetos</a>
           </li>
           <li>
             <a href="#contact">Contato</a>
