@@ -1,14 +1,27 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 import styles from "./navbar.module.css";
 import { getImageUrl } from "../../utils";
 
 export const Navbar = () => {
+  const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const isScrolled = window.scrollY > 0;
+      setScrolled(isScrolled);
+    };
+
+    document.addEventListener("scroll", handleScroll);
+    return () => {
+      document.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <nav className={styles.navbar}>
-      <a className={styles.title} href="/">
+    <nav  className={`${styles.navbar} ${scrolled ? styles.scrolled : ""}`}>
+      <a className={styles.title} href="#top">
         Portfólio
       </a>
       <div className={styles.menu}>
