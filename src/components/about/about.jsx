@@ -19,27 +19,27 @@ export const About = () => {
         <li className={styles.aboutItem}>
             <img src={getImageUrl("about/uiIcon.png")} alt="ui icon" />
             <div className={styles.aboutItemText}>
-              <h3>Desenvolvedor Web</h3>
+              <h3>Desenvolvedor de Software</h3>
               <p>
-                Desenvolvimento de sites modernos e resposivos 
+              Acredito na sinergia entre diferentes áreas da programação para criar soluções inovadoras e eficientes. Apaixonado em transformar ideias em código. 
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="cursor icon" />
             <div className={styles.aboutItemText}>
-              <h3>Desenvolvedor Front-end</h3>
+              <h3>Desenvolvedor Full-Stack</h3>
               <p>
-                Possuo experiência com o desenvolvimento de projetos front-end
+              Estou imerso na jornada para me tornar um desenvolvedor Full-Stack. Isso significa não apenas entender o front-end e o back-end, mas também como eles se integram para criar experiências completas.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/serverIcon.png")} alt="server icon" />
             <div className={styles.aboutItemText}>
-              <h3>Desenvolvedor Back-end</h3>
+              <h3>Missão</h3>
               <p>
-                Estudando  para me tornar um desenvolvedor full-satck
+              Criar soluções que impactem positivamente a vida das pessoas, combinando tecnologia com psicologia para oferecer experiências completas, humanizadas e significativas.
               </p>
             </div>
           </li>

@@ -26,15 +26,15 @@
 }
 
 .aboutImg {
-  max-width: 35%;
-  height: 300px;
+  max-width: 38%;
+  height: 320px;
   border-radius: 20px;
 }
 
 .aboutItems {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 12px;
   color: var(--color-text);
 }
 
@@ -50,7 +50,7 @@
   );
   background-size: 0 100%;
   background-repeat: no-repeat;
-  transition: 0.4s;
+  transition: 0.5s;
 }
 
 .aboutItem:hover {
@@ -58,12 +58,30 @@
 }
 
 .aboutItem h3 {
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 600;
+  position: relative;
+}
+
+.aboutItem h3::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to right, var(--color-text) 40%, transparent 90%);
+  visibility: hidden;
+  transition: 0.7s ease-in;
+}
+
+.aboutItem:hover h3::before {
+  visibility: visible;
+  width: 100%;
 }
 
 .aboutItem p {
-  font-size: 25px;
+  font-size: 18px;
 }
 
 @media screen and (max-width: 830px) {
