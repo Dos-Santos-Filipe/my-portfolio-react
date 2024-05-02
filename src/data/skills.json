@@ -16,7 +16,7 @@
     "imageSrc": "skills/css.png"
   },
   {
-    "title": "Node",
+    "title": "Node.js",
     "imageSrc": "skills/node.png"
   },
   {
@@ -34,5 +34,13 @@
   {
     "title": "Jest",
     "imageSrc": "skills/jest.png"
+  },
+  {
+    "title": "PHP",
+    "imageSrc": "skills/php.png"
+  },
+  {
+    "title": "PostgreSql",
+    "imageSrc": "skills/postgreSql.png"
   }
 ]

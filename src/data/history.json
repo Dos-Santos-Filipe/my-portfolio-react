@@ -1,18 +1,18 @@
 [
   {
     "role": "Análise e Desenvolvimento de Sistemas",
-    "organisation": "Estácio de Sá",
+    "organization": "Estácio de Sá",
     "startDate": "2023",
     "endDate": "Momento",
     "experiences": [],
     "imageSrc": "history/estacio.png"
   },
   {
-    "role": "Treinamento Web FullStack",
-    "organisation": "DevQuest",
+    "role": "Formação em Desenvolvimento Web Full-Stack",
+    "organization": "DevQuest",
     "startDate": "2023",
     "endDate": "Momento",
-    "experiences": ["Frontend", "Backend"],
+    "experiences": ["Front-end", "Back-end"],
     "imageSrc": "history/devquest.png"
   }
 ]
