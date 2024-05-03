@@ -2,7 +2,7 @@
   {
     "title": "GitHub API",
     "imageSrc": "projects/githubApi.png",
-    "description": "Site de busca que usa a API do GitHub para acessar e exibir informações públicas dos usuários.",
+    "description": "Site de busca que utiliza a API do GitHub para acessar e exibir de maneira eficiente as informações públicas dos usuários e seus repositórios, proporcionando uma visão abrangente e detalhada do perfil e das atividades de codificação do usuário no GitHub.",
     "skills": ["JavaScript", "CSS", "HTML", "API"],
     "demo": "https://dos-santos-filipe.github.io/GitHub-API-JSQuest/",
     "source": "https://github.com/Dos-Santos-Filipe/GitHub-API-JSQuest"
@@ -10,15 +10,15 @@
   {
     "title": "Financial App",
     "imageSrc": "projects/financial-app.png",
-    "description": " Projeto de uma aplicação em React para facilitar o controle financeiro.",
-    "skills": ["React", "Styled components"],
+    "description": "Projeto de uma aplicação em React que foi desenvolvida com o objetivo de simplificar e otimizar a tarefa de controle financeiro, proporcionando uma interface intuitiva e recursos eficientes para o gerenciamento de finanças.",
+    "skills": ["React", "JavaScript", "Styled components", "HTML"],
     "demo": "https://dos-santos-filipe.github.io/React-financial-App/",
     "source": "https://github.com/Dos-Santos-Filipe/React-financial-App"
   },
   {
     "title": "Portfólio",
     "imageSrc": "projects/portfolio-react.png",
-    "description": "Este portfólio é um cartão de visitas virtual que consolida e destaca minha experiência e habilidades.",
+    "description": "Este portfólio funciona como um cartão de visitas virtual, proporcionando uma experiência visual e interativa, que destaca aspectos selecionados das minhas habilidades e experiências.",
     "skills": ["React", "JavaScript", "CSS", "HTML"],
     "demo": "https://dos-santos-filipe.github.io/my-portfolio-react/",
     "source": "https://github.com/Dos-Santos-Filipe/my-portfolio-react"
