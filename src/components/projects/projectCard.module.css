@@ -88,3 +88,10 @@
   color: var(--color-primary);
   background-color: var(--color-text);
 }
+
+@media screen and (max-width: 1000px) {
+  .description {
+    max-height: 300px;
+    opacity: 1;
+  }
+}
